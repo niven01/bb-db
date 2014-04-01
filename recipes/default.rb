@@ -45,7 +45,7 @@ node.default['mysql']['reload_action'] = "none"
 
 #If these recipes fail, the whole convergence will be considered unsuccessful
 critical_recipes = [
-  "rackspace-iptables",
+  "rackspace_iptables",
   "cron",
   "rackspace_mysql::server"
  # "database::mysql"

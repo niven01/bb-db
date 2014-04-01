@@ -8,6 +8,6 @@ version          '0.1.0'
 
 depends "rackspace_mysql"
 depends "rackspace_apt"
-depends "rackspace-iptables"
+depends "rackspace_iptables"
 depends "cron"
 
